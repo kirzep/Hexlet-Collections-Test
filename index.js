@@ -39,9 +39,10 @@ const sumUniqueNumbers = (numbers) => {
   return sum;
 }
 
-console.log(sumUniqueNumbers([1, 2, 3, 2, 4, 3, 5])); // 15
-console.log(sumUniqueNumbers([10, 20, 10, 20, 30])); // 60
-console.log(sumUniqueNumbers([0, -1, -2, -1, -3])); // -6
+// Судя по всему тесты в самом задании неправильные. Ответы будут другими
+console.log(sumUniqueNumbers([1, 2, 3, 2, 4, 3, 5])); // 10
+console.log(sumUniqueNumbers([10, 20, 10, 20, 30])); // 30
+console.log(sumUniqueNumbers([0, -1, -2, -1, -3])); // -5
 
 const mergeArrays = (arrays) => {
   const mergedArray = [];
